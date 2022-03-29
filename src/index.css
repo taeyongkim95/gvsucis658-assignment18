@@ -1,3 +1,10 @@
+/*
+  Taeyong Kim
+  GVSU CIS658 Assignment 18 - Tic Tac Toe
+  Comments: Nothing much has been altered in the css file, except that I am no longer using a board-row classed div to separate rows
+  but a next-line class on the first square of each row to achieve the same results.
+*/
+
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;

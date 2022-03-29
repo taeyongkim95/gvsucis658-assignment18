@@ -1,3 +1,12 @@
+/*
+  Taeyong Kim
+  GVSU CIS658 Assignment 18 - Tic Tac Toe
+  Comments: The base index.js from React's TicTacToe was used as a starting point for this assignment.
+  For requirement 1, I created my empty, X, and O images and imported them to be rendered in square depending on its state.
+  For requirement 2, I added a boardConfig state to the Game Component that dictates whether it is a 3x3, 4x4, or 5x5 board.
+  I then refactored all the other things like board rendering, calculateWinner() to account for the boardConfig
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
