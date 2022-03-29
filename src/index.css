@@ -7,7 +7,7 @@ ol, ul {
   padding-left: 30px;
 }
 
-.board-row:after {
+.next-line {
   clear: both;
   content: "";
   display: table;
